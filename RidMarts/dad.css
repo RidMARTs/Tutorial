@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+.total {
+    background-color: rgb(13, 36, 36);
+    padding-left: 130px;
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.sales {
+    background-color: rgb(33, 67, 83);
+    padding-left: 130px;
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.rental {
+    background-color: red;
+    padding-left: 130px;
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.box {
+    height: 120px;
+    width: 25rem;
+    background-color: pink;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    /* padding-left: 140px; */
+    padding-bottom: 50px;
+}
+
+.boxes {
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+    display: grid;
+
+}
+
+.box-1 {
+    background-color: rgb(33, 67, 83);
+    /* padding-bottom: 30px; */
+    /* padding-left: 150px; */
+}
+
+.box-2 {
+    background-color: turquoise;
+}
+
+.box-3 {
+    background-color: red;
+    /* padding-left: 130px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}

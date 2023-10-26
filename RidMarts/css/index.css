@@ -1,0 +1,123 @@
+/* .container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+} */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.textContainer{
+    padding: 30px;
+    padding-top: 170px;
+    max-width: 500px;
+}
+.banner{
+    background-color: #f4feff;
+}
+.landing{
+    color: purple;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.bold-text{
+    font-weight: 700;
+    font-size: 38px;
+    padding-right: 50px;
+    color: indigo;
+    margin-bottom: 20px;
+}
+.btn-register{
+    background-color: rgb(184, 73, 184);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin-top: 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-items{
+    margin-left: 400px;
+}
+.nav-items span{
+    margin-right: 40px;
+}
+.navBar{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.nav-items span a{
+    text-decoration: none;
+}
+.nav-items span a:hover{
+    color: purple;
+    font-size: 28px;
+}
+.bold-2{
+    color: rgb(2, 2, 43);
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 500;
+    padding-left: 70px;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+.features{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+.icon-wrapper{
+    background-color: blueviolet;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.grid-item{
+    display: flex;
+    
+}
+.btn-whatsap{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(107, 161, 25);
+    border: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+.grid-text{
+    max-width: 400px;
+    margin-left: 20px;
+    text-align:justify;
+}
+
+@media screen and (max-width:900px) and (min-width:769px){
+
+}
+
+@media screen and (max-width:768px){
+    .container{
+        display: block;
+    }
+    .phone{
+        display: none;
+    }
+    .banner{
+        overflow-x: hidden;
+    }
+    
+}

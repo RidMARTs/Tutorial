@@ -1,0 +1,49 @@
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+a:visited {
+    color: green;
+    font-weight: normal;
+}
+
+a:hover{
+    color: indigo;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+h4, h3, ul {
+    color: blueviolet;
+}
+
+#myid {
+    color: rgb(24, 133, 133);
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+div {
+    border: 5px solid blue;
+    margin-top: 1rem;
+    padding-left: 1rem;
+
+}
+
+.box1 {
+    border-color: cyan;
+    background-color: rgba(184, 135, 11, 0.459);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.box2 {
+    background-color: cyan;
+}
+
+p{
+   border: 2px solid;
+   margin: 0;
+}

@@ -1,0 +1,148 @@
+body {
+    background-color: lightblue;
+    color: white;
+}
+
+h1 {
+    background: red;
+    height: 250px;
+    width: 350px;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.myid {
+    height: 50px;
+    width: 30px;
+    border: 1px solid red;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    position: relative;
+    left: 700px;
+    right: 300px;
+    top: 300px;
+    bottom: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    padding: 10px;
+    color: black;
+    height: 300px;
+    width: 400px;
+    border: 2px solid green;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.textbox, input[type="radio"] {
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: blue;
+    outline: 0;
+    border-radius: 5px;
+    background: transparent;
+}
+
+#blue {
+    color: blue;
+}
+
+.center {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    right: 20px;
+    left: 10px;
+}
+
+.circle, .circle1 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.center-box {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    left: 10px;
+    border-radius: 5px;
+    animation: test 3s linear infinite;
+    animation-delay: 6s;
+}
+
+@keyframes test {
+    0% {
+        background-color: red;
+    }
+    20% {
+        background-color: yellow;
+    }
+    40% {
+        background-color: green;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+
+
+.btn {
+    margin: 5px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    background: grey;
+    color: white;
+    border-radius: 5px; 
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-danger {
+    background-color: rgb(238, 92, 92);
+    color: white;
+}
+
+.btn:hover {
+    height: 40px;
+    width: 100px;
+    background: green;
+    color: white;
+    border-radius: 5px; 
+    cursor: pointer;
+
+}
+

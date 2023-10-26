@@ -1,0 +1,56 @@
+div {
+    background: rgb(236, 191, 214);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.flex {
+    display: flex;
+}
+h2 {
+    background-color: rgba(130, 0, 43, 0.281);
+    color: whitesmoke;
+    width: fit-content;
+    border-radius: 18px;
+}
+
+h1 {
+    font-size: 150px;
+    color: rgba(218, 32, 72, 0.377);
+}
+
+img {
+    border: 1px solid rgba(255, 68, 0, 0.336);
+    padding-left: 50px;
+    /* padding-bottom: 50px; */
+    border-radius: 50%;
+}
+
+h3 {
+    background-color: hotpink;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+table {
+    background-color: none;
+}
+
+blockquote{
+    font-family: Georgia,;
+    font-size: 3rem;
+    /* font-style: italic; */
+    text-align: center;
+    font-style: italic;
+    background: url(https://i.gifer.com/390u.gif);
+}
+
+cite {
+    font-size: 1.3rem;
+    background-color: rgba(224, 68, 41, 0.466);
+    border-radius: 20px;
+}
+.lnk {
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}

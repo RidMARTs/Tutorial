@@ -1,0 +1,98 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgba(244, 237, 244, 0.793);
+    font-family: sans-serif;
+}
+
+.menu{
+    background-color: aqua;
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(22, 15, 15);
+}
+
+.menu ul li{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(65, 23, 23);
+    font-weight: 600;
+}
+
+.don, .menu ul li:hover{
+    background-color: rgba(244, 237, 244, 0.839);
+    border-radius: 5px;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color:aqua;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+
+.menu ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+
+.menu ul li:hover .sub-menu ul li a:hover{
+    color: white;
+}
+
+.box5{
+    height: 350px;
+    width: 200px;
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.info-img{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+}
+
+#info{
+    font-weight: 600;
+    font-size: 20px;
+    /* justify-content: space-around; */
+    
+}
+main{
+    
+}
